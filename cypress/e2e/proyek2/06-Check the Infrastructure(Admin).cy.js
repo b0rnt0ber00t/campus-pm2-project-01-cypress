@@ -108,7 +108,7 @@ describe('06-Check the Infrastructure(Admin)', () => {
 
   it('infrastructure (edit)', () => {
     // avoid 429 too many request
-    cy.wait(10000)
+    cy.wait(60000)
 
     cy.visit('http://127.0.0.1/login')
 
